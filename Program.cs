@@ -8,7 +8,7 @@ namespace GitDemo
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("From Subham Karmakar!");
-            Console.WriteLine("THE ENND...");
+            Console.WriteLine("THE END...");
         }
     }
 }
