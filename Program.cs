@@ -1,4 +1,5 @@
 ﻿using System;
+using Components.Addition;
 
 namespace GitDemo
 {
@@ -6,9 +7,10 @@ namespace GitDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("From Subham Karmakar!");
-            Console.WriteLine("THE END...");
+            int a = 100;
+            int b = 10;
+            int res = Addition.Add(a, b);
+            Console.WriteLine(res);
         }
     }
 }
